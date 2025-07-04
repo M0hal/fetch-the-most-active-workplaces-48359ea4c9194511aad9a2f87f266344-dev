@@ -1,3 +1,4 @@
+console.log("TODO: Implement me!");
 import axios from 'axios';
 interface Workplace {
   id: string;
@@ -48,5 +49,6 @@ async function main() {
   } catch (err) {
     console.error('Failed to fetch data:', err.message);
   }
+  
 }
 main();
